@@ -1,0 +1,16 @@
+﻿body {
+}
+div#content
+{
+  overflow:hidden;  
+}
+div#content_main, div#content_sub
+{
+      float:left;
+      width:49%;
+    height: 489px;
+}
+p
+{
+    margin: 0 20px; padding:.5em 0;    
+}

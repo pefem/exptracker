@@ -1,0 +1,228 @@
+/* CSS Document */
+
+body { font-family:Verdana; color:#333333; font-size:10px; }
+
+a { color:#2D2D2D; text-decoration:none; }
+h1 { font-size:16px; }
+h2 { font-size:14px; }
+.background
+{
+background-color:#990000;  
+color:White;
+height:21px;
+}
+#wrapper { width:760px; margin:0 auto; padding:0; }
+
+#header { width:100%; height:150px; background-image:url(../images/InventoryBannerss.png); }
+#header .logo { float:left; }
+#headinfo { float:right; width:200px; margin:10px 5px 0 0; height:20px; padding:05px 0 10px 0; background:url(../images/headinfobg.gif) no-repeat; text-align:center; }
+#headinfo a { color:#EFEFEF; }
+#headinfo a:hover { color:#D2D2D2; border-bottom:1px solid #D2D2D2; }
+
+.logotext { float:left; width:200px; margin:55px 0 50px 30px; font-family:Trebuchet MS; font-size:22px; color:#FFFFFF; }
+.logotext strong { color:#EFEFEF; }
+.logotext2 { font-size:14px; }
+
+#nav { width:100%; overflow:auto; padding:1px; margin:0; background-color:#D2D2D2; border:1px solid #3795D3;}
+#nav ul { margin:0; padding:0; }
+#nav ul li { float:left; list-style:none; padding:0; }
+#nav ul li a { display:block; width:100px; height:15px; padding:8px 0; margin:0 1px 0 0; background-color:#EFEFEF; text-align:center; }
+#nav ul li a:hover { background-color: #FFFFFF; color:#999999; }
+
+#content { width:100%; }
+
+#left { float:left; width:20%;}
+#left ul { margin: 0; padding:0; }
+#left ul li { list-style:none; margin:1px 0; padding:0;
+    height: 28px;
+    width: 157px;
+}
+#left ul li a { display:block; width:120px; margin:0; padding:5px; background-color:#3795D3; }
+#left ul li a:hover { background-color:#FFCD59; }
+#left ul li ul { margin: 0; padding:0; }
+#left ul li ul li { list-style:none; margin:1px 0; padding:0; }
+#left ul li ul li a { padding:5px; background-color:#EFEFEF; }
+
+#breadcrumb { float:left; width:80%; background-color:#EFEFEF; }
+
+#right { float:left; width:80%; }
+#right .postinfo { display:block; width:590px; margin:5px; padding:6px; background-color:White; border:1px solid #3795D3; }
+#right p a { color:#000000; 
+font-weight:bold; text-decoration:underline; }
+
+.clear { clear:both; }
+
+#footer {
+	padding: 10px;
+	border: 1px solid #3795D3;
+	text-align: center;
+	position: relative;
+	height: auto;
+	float: left;
+	width: 740px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+.textBoxArea
+{
+    border-color: #3795D3;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    color:Black;
+    font-family: verdana; 
+    font-size: 8pt;
+   
+    width:181px;
+   height:56px;
+}
+
+.textBox
+{
+    border: 1px solid #3795D3;
+    padding: 3px;
+    color:Black;
+    font-family: verdana; 
+    font-size: 8pt;
+    margin: 3px 3px 3px 0px;
+}
+.textBoxSmall
+    {
+    border-color: #3795D3;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    color:Black;
+    font-family: verdana; 
+    font-size: 8pt;
+    margin: 3px;
+    width:120px;
+    height:18px;
+    }
+    .textBoxNew
+    {
+    border-color: #3795D3;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    color:Black;
+    font-family: verdana; 
+    font-size: 8pt;
+    
+    width:178px;
+    height:15px;
+    }
+    .textsome 
+    {
+        border-color: #3795D3;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    color:Black;
+    font-family: verdana; 
+    font-size: 8pt;
+    
+    width:147px;
+    height:15px;
+    }
+    .dropdown
+    
+    {
+        border-color: #3795D3;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    color:Black;
+    font-family: verdana; 
+    font-size: 8pt;
+    
+    width:178px;
+    height:22px;   
+     }
+
+.dropDownList
+{
+    border-color: #3795D3;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    color:Black;
+    font-family: verdana; 
+    font-size: 8pt;
+    margin: 3px;
+}
+
+.dropDownList
+{
+    border-color:#3795D3;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    color:Black;
+    font-family: verdana; 
+    font-size: 8pt;
+    margin: 3px;
+}
+
+.button {
+    
+    color: Black;
+    border-style: solid;
+    border-color: #417CAB;
+    border-width: 1px;
+    font-size: 8pt;
+    font-family: verdana;
+    padding: 5px;
+    font-weight: bold
+}
+
+.accordionHeader
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #2E4d7B;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionHeaderSelected
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #5078B3;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionContent
+{
+    background-color: #D3DEEF;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+.table
+{
+    width: 30%; text-align: right
+    
+}
+
+.progress
+{
+font-family:Arial;
+position: absolute;
+
+border:solid 2px #417CAB;
+padding:5px;
+    top: 488px;
+    left: 386px;
+}
